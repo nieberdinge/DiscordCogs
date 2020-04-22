@@ -27,8 +27,5 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-#SUBOT
-#token = 'NTA0NzQ5MDU2MDg2NzY5Njc1.XpYaQw.EQlbKmV1pKSHs86XV6aaGDyON2g'
-#UMBC
-token = "NTA0NzQ4NjQ4NzU2ODA1NjUy.Xopzfw.9PkX-zpOrGxnvmMykGzqXUTdoiE"
+token = ""
 client.run(token)
