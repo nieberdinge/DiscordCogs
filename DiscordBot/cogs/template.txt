@@ -13,6 +13,7 @@ class TEMPLATE(commands.Cog):
 
     @commands.command()
     async def Anything(self,ctx):
+    "Put a string under the function to add to !help"
         await ctx.send("")
 
 
